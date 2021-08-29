@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: lato, sans-serif;
+
+}
+
+nav {
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #fff;
+
+}
+
+
+.section1 {
+    height: 440px;
+    width: 100vw;
+    color:#fff;
+    background:linear-gradient(70deg, #F7b500, #b620e0, #32c5ff);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.section2 {
+    height: 440px;
+    width: 100vw;
+    background-image: url("/images/triangle-background.png");
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: #787d84;
+}
+/* Section 3 */
+.section3 {
+    height: 440px;
+    width: 100vw;
+    background:linear-gradient(#fff, #32c5ff, 2%, #fff);
+    color: #787d84;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image2-opacity, .image3-opacity {
+    opacity: 50%;
+}
+
+
+.section4 {
+    height: 440px;
+    width: 100vw;
+    background-color: rgb(36, 34, 34);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* Section five */
+.section5 {
+    height: 440px;
+    width: 100vw;
+    background:linear-gradient(70deg, #F7b500, #b620e0, #32c5ff);
+    color: #fff;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    justify-content: center;
+    /* align-items: center;     */
+    padding: 40px;
+
+
+}
+
+.sec5-products {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    
+}
+
+.sec5-support {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+  
+    
+}
+.sec5-company {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    
+}
+
+.copyright {
+    
+    grid-column: 1/3;
+    position: relative;
+    padding-top: 40px;
+   
+   
+}
+
+.madeby {
+    grid-column: 3/5;
+    text-align: end;
+    padding: 40px;
+}
+
+
+
+
+
+.overview a {
+    text-decoration: none;
+    color: #6d7278;
+}
+
+.products a {
+    text-decoration: none;
+    color: #7693a2;
+}
+
+.Service a {
+    text-decoration: none;
+    color: #819ead;
+}
+
+.Support a {
+    text-decoration: none;
+    color: #8ba8b7;
+}
+
+.company a {
+    text-decoration: none;
+    color: #96B1C0;
+}
+
+.login a {
+    text-decoration: none;
+    color: #32c5ff;
+    border: 1px solid #32c5ff;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    padding: 10px 20px 10px 30px;
+    
+}
+
+.logo {
+    color: #6b8897;
+}
+
+.button1 {
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #6236ff;
+    border-radius: 5px;
+    background:linear-gradient(#32c5ff, #7275f0, #b620e0);
+    width: 248px;
+    height: 48px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button2 {
+    text-transform: uppercase;
+    color: #0091ff;
+    border: 1px solid #0091ff;
+    border-radius: 5px;
+    background:linear-gradient(#fff, #d8d8d8);
+    width: 248px;
+    height: 48px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button3 {
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background:linear-gradient(#313739, #000);
+    width: 248px;
+    height: 48px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.blockquote {
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.ul1 {
+    display: flex;
+    text-decoration-color: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 130%
+}
+.burger {
+    display: none;
+}
+
+.burger div {
+    background: #b0d0e0;
+    width: 25px;
+    height: 2.5px;
+    margin: 5px;
+}
+
+.handimage {
+    position: relative;
+    right: 140px;
+}
+
+@media screen and (max-width: 425px) {
+
+    .section1 {
+        height: 640px;
+
+        color:#fff;
+        background:linear-gradient(70deg, #F7b500, #b620e0, #32c5ff);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+    }
+
+    .section2 {
+        height: 800px;
+        background-image: url("/images/triangle-background.png");
+        display: flex ;
+        flex-direction: column-reverse;
+        color: #787d84;
+        position: relative;
+    }
+    
+        
+
+    .section4 {
+        height: 640px;
+        
+        background-color: rgb(36, 34, 34);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center; }
+
+
+        .section3 {
+            height: 640px;
+            
+            background:linear-gradient(#fff, #32c5ff, 2%, #fff);
+            color: #787d84;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .image2-opacity, .image3-opacity {
+            opacity: 50%;
+        }
